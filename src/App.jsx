@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./layouts/Navbar";
 import Banner from "./layouts/Banner";
+import Succes from "./layouts/Succes";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <div>
         <Navbar/>
         <Banner/>
+        <Succes/>
       </div>
     </>
   );

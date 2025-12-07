@@ -10,6 +10,7 @@ export default {
       colors: {
         'ash': '#737373',
         'primary': '#6A4DF4',
+        'dark': '#151515',
       },
        fontFamily: {
       'inter':'Inter, sans-serif'
