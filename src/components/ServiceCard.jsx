@@ -1,12 +1,11 @@
 import React from 'react'
 import Image from './Image'
-import ServiceIcon from '../assets/serviceicon1.png'
 import Heading4 from './Heading4'
 import SubHeading from './SubHeading'
 
 const ServiceCard = ({className,title,src,des}) => {
   return (
-    <div className='w-[424px] rounded-[20px] hover:shadow-2xl duration-300'>
+    <div className='w-[424px] rounded-20 hover:shadow-2xl duration-300'>
       <Image className={`mx-auto mt-[47px] ${className}`} src={src}/>
       <Heading4 className={`pt-10 pb-5 text-center ${className}`} text={title}/>
       <SubHeading className={`px-[49px] text-center mx-auto pb-[47px] ${className}`} text={des}/>

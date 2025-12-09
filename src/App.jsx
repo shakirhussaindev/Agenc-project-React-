@@ -3,6 +3,7 @@ import Navbar from "./layouts/Navbar";
 import Banner from "./layouts/Banner";
 import Succes from "./layouts/Succes";
 import Services from "./layouts/Services";
+import Work from "./layouts/Work";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Banner/>
         <Succes/>
         <Services/>
+        <Work/>
       </div>
     </>
   );

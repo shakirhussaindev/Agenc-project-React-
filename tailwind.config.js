@@ -1,24 +1,24 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    
     extend: {
       maxWidth: {
-        'container': "1320px" 
+        container: "1320px",
       },
       colors: {
-        'ash': '#737373',
-        'primary': '#6A4DF4',
-        'dark': '#151515',
+        ash: "#737373",
+        primary: "#6A4DF4",
+        dark: "#151515",
+        dark7: "#F3F3F3",
       },
-       fontFamily: {
-      'inter':'Inter, sans-serif'
+      fontFamily: {
+        inter: "Inter, sans-serif",
+      },
+      borderRadius: {
+        20: "20px",
+      },
     },
-  },},
+  },
   plugins: [],
-}
-
+};
