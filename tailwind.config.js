@@ -7,6 +7,9 @@ export default {
   theme: {
     
     extend: {
+      maxWidth: {
+        'container': "1320px" 
+      },
       colors: {
         'ash': '#737373',
         'primary': '#6A4DF4',
