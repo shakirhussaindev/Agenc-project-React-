@@ -14,7 +14,7 @@ const Succes = () => {
   return (
     <section className="py-[150px]">
       <Container>
-        <Flex className="bg-[#F8F6FE] py-[86px] px-12 rounded-[20px]">
+        <Flex className="bg-[#F8F6FE] py-[86px] px-12 rounded-20">
           <div className="w-[540px] bg-[#F8F6FE]">
             <h6 className="text-2xl text-primary font-inter font-medium ">
               Our Success

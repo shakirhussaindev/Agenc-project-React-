@@ -4,6 +4,7 @@ import Banner from "./layouts/Banner";
 import Succes from "./layouts/Succes";
 import Services from "./layouts/Services";
 import Work from "./layouts/Work";
+import Agenc from "./layouts/Agenc";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Succes/>
         <Services/>
         <Work/>
+        <Agenc/>
       </div>
     </>
   );

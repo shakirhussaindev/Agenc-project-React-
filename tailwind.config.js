@@ -18,6 +18,10 @@ export default {
       borderRadius: {
         20: "20px",
       },
+      spacing: {
+        150: '150px',
+        50: '50px',
+      }
     },
   },
   plugins: [],
