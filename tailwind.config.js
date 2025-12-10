@@ -8,6 +8,7 @@ export default {
       },
       colors: {
         ash: "#737373",
+        dark3: "#7B7B7B",
         primary: "#6A4DF4",
         dark: "#151515",
         dark7: "#F3F3F3",
