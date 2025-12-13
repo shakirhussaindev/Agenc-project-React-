@@ -6,6 +6,7 @@ import Services from "./layouts/Services";
 import Work from "./layouts/Work";
 import Agenc from "./layouts/Agenc";
 import Reviews from "./layouts/Reviews";
+import CreateAccount from "./layouts/CreateAccount";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Work/>
         <Agenc/>
         <Reviews/>
+        <CreateAccount/>
       </div>
     </>
   );

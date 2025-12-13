@@ -16,7 +16,7 @@ const Services = () => {
     <section className='pb-[103px]'>
       <Container>
         <Heading className="text-center" text='Our Provided Services'/>
-        <SubHeading className="w-[609px] text-center mx-auto pt-5 pb-[50px]" text="There are many   variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in   some form."/>
+        <SubHeading className="w-[609px] text-center mx-auto pt-5 pb-50" text="There are many   variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in   some form."/>
         <Flex className="gap-6 flex-wrap">
           <ServiceCard src={ServiceIcon1} title="Web Design" des="There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look."/>
           <ServiceCard src={ServiceIcon2} title="UI/UX Design" des="There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look."/>

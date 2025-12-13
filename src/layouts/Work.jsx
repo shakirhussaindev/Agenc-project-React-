@@ -14,7 +14,7 @@ import Img6 from "../assets/workimg6.png";
 
 const Work = () => {
   return (
-    <section className="bg-dark7 py-[150px]">
+    <section className="bg-dark7 py-150">
       <Container>
         <Heading className="text-center" text="Our Recent Work" />
         <SubHeading className="w-[620px] text-center mx-auto pt-5 pb-[30px]"
@@ -28,7 +28,7 @@ const Work = () => {
             <Li className="text-xl text-[#A1A1A1] font-medium hover:font-semibold hover:text-primary" text="Digital Marketing"/>
           </ul>
           <div>
-            <Flex className="flex-wrap gap-6 mt-[50px]">
+            <Flex className="flex-wrap gap-6 mt-50">
               <WorkCard src={Img1} title="Task Management App" text="This is a task management application that can help you be more "/>
               <WorkCard src={Img2} title="Saas Landing Page Design" text="This is a task management   application that can help you be more "/>
               <WorkCard src={Img3} title="App Design" text="This is a task management   application that can help you be more "/>

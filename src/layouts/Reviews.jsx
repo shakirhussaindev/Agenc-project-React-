@@ -11,7 +11,7 @@ import { GoDotFill } from "react-icons/go";
 
 const Reviews = () => {
   return (
-    <section className="mb-72">
+    <section className="mb-64">
       <Container>
         <Heading className="text-center" text="Some Client Reviews" />
         <SubHeading className="w-[620px] mx-auto text-center pt-5" text="There are many variations of passages of Lorem Ipsum available, but themajority have suffered 
