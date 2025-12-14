@@ -19,13 +19,13 @@ const CreateAccount = () => {
           <div className="w-[536px] bg-white rounded-20 py-[61px] px-[43px]">
             <h5 className="text-3xl text-dark font-bold font-inter text-center pb-[30px]">Get a free quote now</h5>
             <label className="text-base text-dark font-medium font-inter" htmlFor="name">Name
-              <input id="name" className=" w-full border border-[#E8E8E8] rounded-lg py-[19px] px-6 mt-2.5 placeholder:text-base placeholder:text-[#D0D0D0] placeholder:font-inter placeholder:font-normal mb-5" type="text" placeholder="Enter your name" />
+              <input id="name" className=" w-full border border-[#E8E8E8] rounded-lg py-[19px] px-6 mt-2.5 text-lg text-dark font-inter font-medium placeholder:text-base placeholder:text-[#D0D0D0] placeholder:font-inter placeholder:font-normal mb-5" type="text" placeholder="Enter your name" />
             </label>
             <label className="text-base text-dark font-medium font-inter" htmlFor="email">Email
-              <input id="email" className=" w-full border border-[#E8E8E8] rounded-lg py-[19px] px-6 mt-2.5 placeholder:text-base placeholder:text-[#D0D0D0] placeholder:font-inter placeholder:font-normal mb-5" type="text" placeholder="Enter your email" />
+              <input id="email" className=" w-full border border-[#E8E8E8] rounded-lg py-[19px] px-6 mt-2.5 text-lg text-dark font-inter font-medium placeholder:text-base placeholder:text-[#D0D0D0] placeholder:font-inter placeholder:font-normal mb-5" type="text" placeholder="Enter your email" />
             </label>
             <label className="text-base text-dark font-medium font-inter" htmlFor="phone">Phone
-              <input id="phone" className=" w-full border border-[#E8E8E8] rounded-lg py-[19px] px-6 mt-2.5 placeholder:text-base placeholder:text-[#D0D0D0] placeholder:font-inter placeholder:font-normal mb-6" type="text" placeholder="Enter your phone number" />
+              <input id="phone" className=" w-full border border-[#E8E8E8] rounded-lg py-[19px] px-6 mt-2.5 text-lg text-dark font-inter font-medium placeholder:text-base placeholder:text-[#D0D0D0] placeholder:font-inter placeholder:font-normal mb-6" type="text" placeholder="Enter your phone number" />
             </label>
             <Button className="w-full py-[19px]" text="Get Pricing Now"/>
           </div>

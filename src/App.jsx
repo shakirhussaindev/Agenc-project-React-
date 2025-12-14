@@ -7,6 +7,7 @@ import Work from "./layouts/Work";
 import Agenc from "./layouts/Agenc";
 import Reviews from "./layouts/Reviews";
 import CreateAccount from "./layouts/CreateAccount";
+import Footer from "./layouts/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Agenc/>
         <Reviews/>
         <CreateAccount/>
+        <Footer/>
       </div>
     </>
   );
